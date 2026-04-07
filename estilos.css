@@ -59,17 +59,24 @@ button:hover {
     color: #ddd;
 }
 
-.weather-icon {
+.clima-icono {
     width: 170px;
     margin-top: 30px;
 }
 
-.clima h1 {
+.clima_texto {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: -25px;
+    font-style: italic;
+}
+
+h1 {
     font-size: 80px;
     font-weight: 500;
 }
 
-.clima h2 {
+h2 {
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
@@ -82,7 +89,6 @@ button:hover {
     padding: 0 20px;
     margin-top: 50px;
 }
-
 .col {
     display: flex;
     align-items: center;
@@ -96,5 +102,12 @@ button:hover {
 
 .humedad, .viento {
     font-size: 28px;
+    margin-top: -6px;
 }
+
+#clima-contenedor {
+    display: none;
+}
+
+
 
